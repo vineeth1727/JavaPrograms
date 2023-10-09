@@ -7,7 +7,7 @@ public class Salesprogram {
 	public static void main(String[] args) {
 		
 			
-			Scanner sc = new Scanner(System.in);
+			try(Scanner sc = new Scanner(System.in)){
 			System.out.println("Enter no of Test Cases");
 			int t = sc.nextInt();
 			
@@ -29,7 +29,7 @@ public class Salesprogram {
 				System.out.println("Result--->"+res);
 				
 			}
-				
+			}	
 			}
 
 			private static int printResult(int[] h, int p) {
