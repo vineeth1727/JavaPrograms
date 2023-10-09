@@ -15,7 +15,6 @@ public class Wordchange {
 			for(int i=0;i<lines.length;i++) {
 				lines[i] = lines[i].trim();
 				words = lines[i].split(" ");
-				newLine="";
 				for(int j=0;j<words.length;j++) {
 					if( (j==0) && (words[j].length() > 0) ) {
 						firstChar=words[j].charAt(0);
