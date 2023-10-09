@@ -11,7 +11,6 @@ public class Wordchange {
 			String[] lines = data.split(":");
 			String[] words;
 			char firstChar;
-			String newLine="";
 			String updatedData = "";
 			for(int i=0;i<lines.length;i++) {
 				lines[i] = lines[i].trim();
