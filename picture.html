@@ -3,20 +3,328 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> 
+    <style>
+        #vk{
+            width: 330px;
+            height: 33px;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <img src="images/thumbnail-1.webp" width="280px" height="150px";>
-    </div>
-    <div style="display: inline-block; margin-right: 5px;" >
-        <img style="border-radius:20px;" src="images/channel-1.jpeg" width="40px" height="40px";>
-    </div>
-    <div style="display: inline-block;font-weight: 545; width: 220px; vertical-align: top;" >
-        Talking Tech and AI with Google CEO Sundar Pichai!  
-        <div style="font-weight: lighter; margin-top:10px ;font-size: small;color: gray;">
-            Marques Brownlee<br>3.4M views · 6 months ago
+<div>
+    <header style="background-color: white;position: fixed;top: 0;width: 100%;height: 57px;">
+        <div style="display: flex;justify-content: space-between;margin-top: 10px;">
+            <div style="display: flex;justify-content: space-between; margin-top: 3px;">
+                <div style="padding-left: 21px;margin-top: 3px;">
+                    <img src="images/hamburger-menu.svg" width="25px" height="25px">
+                </div>
+                <div style="padding-left: 25px;">
+                    <img src="images/youtube-logo.svg" width="90px" height="30px">
+                </div>
+            </div>
+            <div style="display: flex;vertical-align: top;">
+                 <div>
+                    <input id="vk" type="text" placeholder="Search">
+                </div>
+                <div>
+                    <button style="width: 60px;height: 39px;">
+                        <img src="images/search.svg" width="30px" height="25px">
+                    </button>
+                </div>   
+                <div style="padding-left: 12px;padding-top: 5px;">
+                    <button style="border: none;border-radius: 20px;">
+                    <img src="images/voice-search-icon.svg" width="25px" height="25px">
+                    </button>
+                </div>
+            </div>
+            <div style="display: flex;column-gap: 25px;padding-right: 30px ;">
+                <div style="margin-top: 5px;">
+                    <img src="images/upload.svg" width="24px" height="24px">
+                </div>
+                <div style="margin-top: 5px;">
+                    <img src="images/youtube-apps.svg" width="24px" height="24px">
+                </div>
+                <div style="margin-top: 5px;">
+                    <img src="images/notifications.svg" width="24px" height="24px">
+                </div>
+                <div>
+                    <img src="images/my-channel.jpeg" width="35px" height="35px">
+                </div>
+            </div> 
         </div>
     </div>
+    </header>
+
+<div style="display: flex;margin-top: 15px;">
+    <nav style="position: fixed;">
+        <div style="padding-top: 20px;">
+            <div style="padding-top: 30px;align-content: center;">
+                <img style="padding-left: 20px;" src="images/home.svg" width="25px" height="35px">
+                <div style="font-size:x-small;padding-left: 20px;">
+                    Home
+                </div>
+            </div>
+            <div style="padding-top: 20px;">
+                <img style="padding-left: 20px;" src="images/explore.svg" width="25px" height="35px">
+                <div style="font-size: x-small;padding-left: 20px;">
+                    Explore
+                </div>
+            </div>
+            <div style="padding-top: 20px;">
+                <img style="padding-left: 20px;" src="images/subscriptions.svg" width="25px" height="35px">
+                <div style="font-size: x-small;padding-left: 6px;">
+                    Subscriptions
+                </div>
+            </div>
+            <div style="padding-top: 20px;">
+                <img style="padding-left: 20px;" src="images/originals.svg" width="25px" height="35px">
+                <div style="font-size: x-small;padding-left: 14px;">
+                    Originals
+                </div>
+            </div>
+            <div style="padding-top: 20px;">
+                <img style="padding-left: 20px;" src="images/youtube-music.svg" width="25px" height="35px">
+                <div style="font-size: x-small;">
+                    YouTube Music
+                </div>
+            </div>
+            <div style="padding-top: 20px;">
+                <img style="padding-left: 20px;" src="images/library.svg" width="25px" height="35px">
+                <div style="font-size: x-small;padding-left: 17px;">
+                    Library
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div style="padding-left: 70px;">
+        <div style="background-color: whitesmoke;border-top:ridge ;" >
+            <div style="display: grid; grid-template-columns: 280px 280px 280px 280px;column-gap: 10px; margin-top: 65px;padding-bottom: 40px;padding-left: 20px;">
+                <div>
+                    <div>
+                         <img src="images/thumbnail-1.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-1.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    Talking Tech and AI with Google CEO Sundar Pichai!
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    Marques Brownlee<br>3.4M views · 6 months ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/thumbnail-2.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-2.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    Try Not To Laugh Challenge #9
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    Markiplier<br>19M views · 4 years ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/thumbnail-3.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-3.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    Crazy Tik Toks Taken Moments Before DISASTER
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    SSSniperWolf<br>12M views · 1 year ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/thumbnail-4.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-4.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    The Simplest Math Problem No One Can Solve - Collatz Conjecture
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    Veritasium<br>18M views · 4 months agos
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        
+            <div style="display: grid; grid-template-columns:280px 280px 280px 280px;column-gap: 10px;;margin-top: 5px;padding-bottom: 40px; padding-left: 20px;">
+                <div>
+                    <div>
+                         <img src="images/thumbnail-5.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-5.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    Kadane's Algorithm to Maximum Sum Subarray Problem
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    CS Dojo<br>519K views · 5 years ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/thumbnail-6.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-6.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    Anything You Can Fit In The Circle I’ll Pay For
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    MrBeast<br>141M views · 1 year ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/thumbnail-7.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-7.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    Why Planes Don't Fly Over Tibet
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    RealLifeLore<br>6.6M views · 1 year ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/thumbnail-8.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-8.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    Inside The World's Biggest Passenger Plane
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    Tech Vision<br>3.7M views · 10 months ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        
+            <div style="display: grid; grid-template-columns:280px 280px 280px 280px;column-gap: 10px;;margin-top: 5px;padding-bottom: 40px; padding-left: 20px;">
+                <div>
+                    <div>
+                         <img src="images/thumbnail-9.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-9.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    The SECRET to Super Human STRENGTH
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    ThenX<br>20M views · 3 year ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/thumbnail-10.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-10.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    Business Insider<br>14M views · 1 year ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/thumbnail-11.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-11.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    Dubai's Crazy Underwater Train and Other Things #Only in Dubai
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    Destination Tips<br>3M views · 1 year ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="images/thumbnail-12.webp" width="275px" height="155px">
+                    </div>
+                    <div>
+                        <div style="display: grid; grid-template-columns: 50px 230px; margin-top: 10px;">
+                            <img style="border-radius: 20px;" src="images/channel-12.jpeg" width="35px" height="35px">
+                            <div>
+                                <div style="font-family: Arial,sans-serif;font-size: small;padding-top: 5px;font-weight: bold;">
+                                    What would happen if you didn’t drink water? - Mia Nacamulli
+                                </div>
+                                <div style="font-weight: lighter;color: grey;font-size: small;margin-top: 5px;">
+                                    TED-Ed<br>12M views · 5 years ago
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
